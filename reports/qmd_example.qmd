@@ -1,12 +1,12 @@
 ---
 title: "DSCI 310: Historical Horse Population in Canada"
 author: "Brianna Zhou"
-html:
-    toc: true              
+html:           
     toc-depth: 2           
-    toc-title: "Contents"   
+    toc-title: "Table of Contents"   
     number-sections: true   
     editor: source
+toc: true   
 execute:
   echo: false
   warning: false
@@ -17,25 +17,26 @@ bibliography: references.bib
 library(tidyverse)
 ```
 
-Aim
+# Aim
 
 This project explores the historical population of horses in Canada 
 between 1906 and 1972 for each province.
 
-Data
+# Data
 
 Horse population data were sourced from the 
 [Government of Canada's Open Data website](http://open.canada.ca/en/open-data) 
 [@horses1; @horses2].
 
-Methods
+
+# Methods
 
 The R programming language [@R] 
 and the following R packages were used to perform the analysis: 
 knitr [@knitr], tidyverse [@tidyverse], and Quarto [@Allaire_Quarto_2022]. 
 *Note: this report is adapted from Timbers [@ttimbers-horses].*
 
-Results
+# Results
 
 ![Horse populations for all provinces in Canada from 1906 - 1972](../results/horse_pops_plot.png){#fig-horse_pops_plot}
 
