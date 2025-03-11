@@ -6,6 +6,7 @@ all: results/horse_pop_plot_largest_sd.png \
 	results/horses_spread.csv \
 	reports/qmd_example.html \
 	reports/qmd_example.pdf
+	cp reports/qmd_example.html docs/index.html
 
 
 
