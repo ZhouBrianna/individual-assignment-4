@@ -1,17 +1,17 @@
 ---
 title: "DSCI 310: Historical Horse Population in Canada"
 author: "Brianna Zhou"
-html:           
-    toc-depth: 2           
-    toc-title: "Table of Contents"   
-    number-sections: true   
+format: 
+  html:
+    number-figures: true
+    number-tables: true
     embed-resources: true
-toc: true
-editor: source   
-execute:
-  echo: false
-  warning: false
+editor: source
 bibliography: references.bib
+toc: true
+execute:
+   echo: false
+   warning: false
 ---
 
 ```{r}
