@@ -72,4 +72,4 @@ Additionally, note that in @tbl-horse_sd we consider the sample standard deviati
 
 In @fig-horse_pop_plot_largest_sd we zoom in and look at the province of `{r} largest_sd`, which had the largest spread of values in terms of standard deviation.
 
-References
+# References
