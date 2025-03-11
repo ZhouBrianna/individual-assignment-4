@@ -5,8 +5,9 @@ html:
     toc-depth: 2           
     toc-title: "Table of Contents"   
     number-sections: true   
-    editor: source
-toc: true   
+    embed-resources: true
+toc: true
+editor: source   
 execute:
   echo: false
   warning: false
